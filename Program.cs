@@ -7,8 +7,8 @@ namespace EmployeeWageComputationOoopsPart2
         public static void Main(string[] args)
         {
 
-            EmpWageBuilderUC9 capGemini = new EmpWageBuilderUC9("CapGemini", 15, 5, 17);
-            EmpWageBuilderUC9 Wipro = new EmpWageBuilderUC9("Wipro", 16, 3, 21);
+            EmpWageBuilderUC10 capGemini = new EmpWageBuilderUC10("CapGemini", 15, 5, 17);
+            EmpWageBuilderUC10 Wipro = new EmpWageBuilderUC10("Wipro", 16, 3, 21);
 
             Wipro.computeEmpWage();
             Console.WriteLine(Wipro.toString());
